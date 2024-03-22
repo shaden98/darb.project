@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap');
+*{
+    font-family:IBM Plex Sans Araibc;
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+
+#first{/*اول نص, نص تعريفي عن المسارات*/
+    font-size: 15px;
+}
+
+ol{/*قائمه المسارات*/
+    font-size: 20px;
+    color:rgb(252, 90, 4);
+    
+}
+
+h2{/*عنواين المسارات */
+    font-size: 30px;
+}
+
+
+.small{/*small = النصوص الصغيره الرماديه ,اطباء ماحميين الخ..*/
+    color: rgb(141, 142, 142);
+}
+
+p{
+    font-size: 20px;
+}
+
+span{/*التخصصات  المتاحه*/
+    color:rgb(252, 90, 4);
+}
+
+
+
+
+a{/*زر التعرف على المزيد*/
+    color: rgb(246, 248, 249);
+    text-decoration: none;
+    background-color: rgb(252, 90, 4);
+    font-size: .90em;
+    font-weight: 200;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+a :hover{
+    color:royalblue;
+}
+DIV{/*جعل النصوص في المنتصف*/
+    text-align: center;
+}
